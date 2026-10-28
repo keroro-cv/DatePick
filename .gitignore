@@ -1,0 +1,32 @@
+﻿# Frontend
+node_modules/
+dist/
+
+# Backend
+target/
+.mvn/wrapper/maven-wrapper.jar
+
+# Database
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+
+# Secrets and local settings
+.env
+.env.*
+!.env.example
+application-local.properties
+
+# IDE and OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
